@@ -4,7 +4,7 @@ import json
 def search_emails(keyword, filename):
     url = "https://api.apollo.io/v1/mixed_people/search"
     headers = {
-        "Authorization": "jbtkZzFFVqfs23_Xpef0Gg",  # Replace YOUR_API_KEY with your actual API key
+        "Authorization": "asdfasdf",  # Replace YOUR_API_KEY with your actual API key
         "Content-Type": "application/json"
     }
     payload = json.dumps({
